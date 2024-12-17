@@ -1,4 +1,9 @@
 ```
+tsh ssh aleksander.rykalin@cloud-runner-3.el.wb.ru
+sudo -i -u gitlab-runner
+```
+
+```
 export PROJ=s
 export BRANCH=cl-3791
 ssh c1-az1.az1.${PROJ}-${BRNACH}.mr.cloud.devel
