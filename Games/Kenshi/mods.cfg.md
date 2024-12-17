@@ -1,3 +1,9 @@
+my mods:
+```
+strage.mod
+Slopeless 
+```
+WIFE colletion mods
 ```
 [1]----------[UI, Graphics, Performance]----------.mod
 Unofficial Patches for Kenshi.mod
@@ -186,6 +192,7 @@ WeaponRetexMetalness.mod
 Radiant Robot Limbs.mod
 Broken Skeleton Limbs.mod
 [7.5]--------------------(Items and Tools).mod
+strage.mod
 FlavorText+.mod
 [8]----------[Overhauls & World Changes]----------.mod
 [8.1]--------------------(Combat).mod
