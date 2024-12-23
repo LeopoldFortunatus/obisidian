@@ -1,7 +1,6 @@
 my mods:
 ```
 strage.mod
-Slopeless 
 ```
 WIFE colletion mods
 ```
