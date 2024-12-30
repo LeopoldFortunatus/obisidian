@@ -15,3 +15,16 @@ relationValue   string
 resourceIDValue string
 ```
 Это какое-то время делалось через response. Но в v2 response в некоторых методах Empty. Попытался передавать через `request_field` но сейчас я в сомнениях, кажется что не всегда будет удобно передавать request на тот уровень когда у нас отрабатывает создание\удаление релейшенов. Возможно нужно создавать кастомные реквест для каждого запроса данные котрого будут заполняться самостоятельно.
+
+```
+// Must set only one field  
+message RelationResourceIDSrc {  
+    bool is_default = 1; // Is used for resource_type = "cloud"  
+    bool from_context = 2; // Is used for resource_type = "user"  
+    string response_field = 3; // Get field by name from response object. Will be replace to Get{field}(). Example - namespace -> GetNamespace()  
+    string request_field = 4; // Get field by name from request object. Will be replace to Get{field}(). Example -  
+    // namespace -> GetNamespace() TODO: maybe not need  
+    //    bool custom_id = 5; // Need to set custom id in method with string type  
+    // TODO: maybe should replace request and response fields with just one field custom_id  
+}
+```
