@@ -1,6 +1,6 @@
 ```
 # build plugin with debug falgs
-DEBUG=true make build_rbac_plugi
+DEBUG=true make build_rbac_plugin
 # run plugin with delve debug tool
 DEBUG=true make generate_<SOMETHING>
 ```
