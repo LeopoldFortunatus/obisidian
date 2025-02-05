@@ -1,5 +1,6 @@
 [
   "obsidian-kanban",
   "obsidian-tasks-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "remotely-save"
 ]

@@ -28,3 +28,5 @@ message RelationResourceIDSrc {
     // TODO: maybe should replace request and response fields with just one field custom_id  
 }
 ```
+
+Это я вроде бы победил. ТЕперь надо допилить остальные методы, и возможно ещё починить пинг гейтвея и разобраться почему make unit-test не падают
