@@ -15,6 +15,11 @@
 $grpcurl -v -d '{}'   -cacert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl-ca.crt   -cert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.crt   -key /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.key   -proto proto/vmctrl/v1/api.proto   -import-path proto/vmctrl/v1 -import-path  proto 172.29.77.2:2000 models.grpc.Service/ListNodes
 ```
 
+DB connect:
+```
+go install github.com/pressly/goose/v3/cmd/goose@latest
+goose -dir='./migrations' postgres "host=127.0.0.1 user=postgres password=postgres dbname=nativedb" up
+```
 configs examples:
 vmcontroller:
 ```
