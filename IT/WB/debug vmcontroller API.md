@@ -129,3 +129,23 @@ vmcontroller:
     ca_cert_file: "/home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl-ca.crt"  
   token: LTUy5WYpAuTdLXi9bRQ5KvCEJx2Q3Cyi
 ```
+
+
+#### test with vmctl
+remove additional instqances from  /etc/cloud/vmctl.yml (leanve only 172.30.12.2)
+```
+export JWT_TOKEN=...
+vmctl -j $JWT_TOKEN create namespace -n spicedb-ns-1
+OR for local dev
+./target/vmctl -j $JWT_TOKEN -c ../local-configs/native/vmctl-new.yml create namespace -n test55
+```
+
+```
+./target/vmctl -j $JWT_TOKEN -c ../local-configs/native/vmctl-new.yml create namespace -n ns1
+./target/vmctl -j $JWT_TOKEN -c ../local-configs/native/vmctl-new.yml create netspace -n ns1 -p nts1
+./target/vmctl -j $JWT_TOKEN -c ../local-configs/native/vmctl-new.yml create network -n ns1 -p nts1 -x 192.168.0.0/24 -w net1
+```
+create admin relation with zed
+```
+zed --insecure relationship touch namespace:1015efbc389f7c1bc10c3aafd21d803a76b239a40651d7d8597c949a9aa28af5 admin user:user567
+```
