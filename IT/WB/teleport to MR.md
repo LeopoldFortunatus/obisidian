@@ -7,6 +7,7 @@ sudo -i -u gitlab-runner
 export PROJ=s
 export BRANCH=cl-3791
 ssh c1-az1.az1.${PROJ}-${BRNACH}.mr.cloud.devel
+ssh c1-az1.az1.s-cl-3984-1.mr.cloud.devel
 ```
 
 Projects:
