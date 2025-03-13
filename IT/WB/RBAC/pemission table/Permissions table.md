@@ -23,3 +23,62 @@ find proto -name "*.proto" -exec sh -c 'echo "file: {}" && grep " rpc " {} && gr
 В начале документа я описал ключевые понятия и предпологаемый список групп. Потом составил общую таблицу (Generalized table) в которой есть обощенный список методов и предполагаемые права раписанные по ролям (по группам писать было бы очень много). Дальше есть таблицы для всех методов всех сервисов, но права для них пока не расписаны, или расписаны абы как, так что на это пока можно не обращать внимания.
 
 Предлагаю сначала обсудить и решить про общий список групп, а потом уже зарыватьсчя в конкретные права для конкретных методов.
+
+TODO:
+
+На основе представленной информации я проведу анализ таблиц и проверю, все ли методы из детализированных таблиц (в разделе "Tables with real methods from proto files") присутствуют в обобщенных таблицах "Пользовательские методы" и "Системные методы".
+
+## Анализ методов
+
+Ваши обобщенные таблицы содержат многие ключевые методы, но некоторых методов из детализированных таблиц не хватает. Вот группы методов, которые отсутствуют или могут быть дополнены в обобщенных таблицах:
+
+### Отсутствующие методы в Пользовательских методах:
+1. **Управление ВМ**:
+   - GetVMDisks, VMInfo
+   - StartVM, StopVM, ChangeVmState
+   - VmGetSerialConsole
+   - VmSetCloudLabels, VmCheckActiveJobs 
+
+2. **Доступ и безопасность**:
+   - Token
+   - AddSSHKey, ListSSHKeys, DeleteSSHKey
+   - CreateAccessKey, ListAccessKeys, DeleteAccessKey
+   - VmAddUserSshKeys, VmGetUserSshKeys (не полностью перекрываются с существующими методами)
+
+3. **Управление квотами и биллингом**:
+   - List (Quota)
+   - VMPrice, VMCost, Currencies, Total (для биллинга)
+
+4. **Планы резервного копирования**:
+   - UpdateBackupPlan, CreateBackupPlan, GetBackupPlan, ListBackupPlan
+
+### Отсутствующие методы в Системных методах:
+1. **Управление сетью**:
+   - OvnListSwitches, OvnListRouters, OvnListNetspace, OvnListTransitLinks, OvnDeployTransitLinks
+   - OvnAddArpSpoofing
+
+2. **Управление миграцией**:
+   - GetMigrationPlan, ListMigrationPlan, ApplyMigrationPlan, CancelMigrationPlan
+   - RepeatJobVmMigrate, FinishJobVmMigrate
+
+3. **Управление нодами**:
+   - ManageNode, UnmanageNode
+   - ScheduleNode, UnscheduleNode
+   - MaintenanceNode, UnmaintenanceNode
+   - RebalanceNode
+
+4. **Аудит**:
+   - GetAuditNodeById, ListAuditNode
+   - GetAuditNamespaceById, ListAuditNamespace
+   - GetAuditVmById, ListAuditVm
+
+## Рекомендации по дополнению
+
+Для полноты таблиц рекомендую:
+
+1. Добавить пропущенные методы в соответствующие обобщенные таблицы
+2. Объединить похожие методы где возможно (например, методы для SSH ключей можно объединить)
+3. Выделить блоки для методов аудита и управления задачами (jobs)
+4. Добавить раздел для управления квотами и биллингом
+
+Особое внимание стоит уделить методам из групп PGaaS и Octopus, которые представлены в общем виде в обобщенных таблицах, но в детализированных таблицах для них есть дополнительные операции.
