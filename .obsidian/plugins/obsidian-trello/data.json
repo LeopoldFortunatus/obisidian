@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "token": "ATTA97db766f2cf582111e3213938f313449b44d21686b4863fad23a5d0fd3a6e56f25700BAE",
+    "customUi": {
+      "global": {
+        "checklists": true,
+        "comments": true,
+        "description": true,
+        "labels": true,
+        "list": true,
+        "title": true,
+        "due": true
+      }
+    },
+    "selectedBoards": [
+      {
+        "id": "577db92ca540f058bbebe3c2",
+        "name": "Задачи",
+        "url": "https://trello.com/b/QkOIFCgM/%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8"
+      },
+      {
+        "id": "57fecb9ad104ed669a202cde",
+        "name": "Культура",
+        "url": "https://trello.com/b/CNQI7JcP/%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0"
+      },
+      {
+        "id": "6698494862ffec395e7d278f",
+        "name": "Anno 1800",
+        "url": "https://trello.com/b/tiCaJ223/anno-1800"
+      },
+      {
+        "id": "5961e977608cc5f318ffb5a3",
+        "name": "Чеклисты",
+        "url": "https://trello.com/b/aOPekwHK/%D1%87%D0%B5%D0%BA%D0%BB%D0%B8%D1%81%D1%82%D1%8B"
+      },
+      {
+        "id": "593afe5d10c36557dc10d532",
+        "name": "Цели",
+        "url": "https://trello.com/b/eGhViSKf/%D1%86%D0%B5%D0%BB%D0%B8"
+      }
+    ],
+    "openToSide": "right",
+    "newCardPosition": "top",
+    "movedCardPosition": "top",
+    "verboseLogging": false,
+    "prepopulateTitle": false,
+    "openInDesktop": false
+  },
+  "version": "2.3.2",
+  "firstRun": false,
+  "connectedCards": {
+    "c_fZ2fPCsGSwHa1Mw_HC1": {
+      "cardId": "66f931bfed9b0514b564c573",
+      "boardId": "6698494862ffec395e7d278f"
+    },
+    "nMLvZNhASGDyOQmnm35Du": {
+      "cardId": "66f93159388c761dc1947831",
+      "boardId": "6698494862ffec395e7d278f"
+    }
+  }
+}
