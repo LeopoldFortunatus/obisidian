@@ -1,6 +1,6 @@
 my mods:
 ```
-strage.mod
+strage (upd).mod
 ```
 WIFE colletion mods
 ```
