@@ -1,7 +1,5 @@
-* Убить багмастера
-* Убить левиафана
 
-
+# Hardest
 From hardest to easiest, assuming that you're not crossbow cheesing or assassinating and running at 40mph which makes everything a joke:
 
 1. Tinfist & Anti-Slavers (Impossible to beat without someone dying, not only is Tinfist too OP, all martial artist anti-slavers have near maxxed MA as well)
@@ -29,10 +27,12 @@ From hardest to easiest, assuming that you're not crossbow cheesing or assassina
 12. The Vault Warden & Samurai Guards (This dude is hardcore and so are his boys. Anything with Samurai Armor is bound to take a lot of hits, so it's not unexpected that he'd be able to take a pounding.)
     
 13. Moll & Her Sexy Ninja Girls (These girls pack quite the punch with their masterwork bastard swords which can cut steel itself, and Moll herself is no pushover with near maxxed stats.)
+## Bugmaster
+1. Bugmaster (The Bugmaster is the entry-level challenge for the endgame fights. If you can take him on, it means you're ready to fight high-level enemies and start changing the world of Kenshi in force. And honestly, getting to the Bugmaster is the hardest part of the entire thing.) 
+    https://kenshi.fandom.com/wiki/Bugmaster
+    ![[Pasted image 20250602141135.png]]
     
-14. Bugmaster (The Bugmaster is the entry-level challenge for the endgame fights. If you can take him on, it means you're ready to fight high-level enemies and start changing the world of Kenshi in force. And honestly, getting to the Bugmaster is the hardest part of the entire thing.)
-    
-15. Emperor Tengu/Longen & Guards (These aren't as challenging as the other fights, but Eyegore will be paying a visit to your outpost if you touch these guys so fair is fair I'd say.)
+2. Emperor Tengu/Longen & Guards (These aren't as challenging as the other fights, but Eyegore will be paying a visit to your outpost if you touch these guys so fair is fair I'd say.)
     
 
 Next, for mid-game:
