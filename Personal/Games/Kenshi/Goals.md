@@ -2,33 +2,46 @@
 # Hardest
 From hardest to easiest, assuming that you're not crossbow cheesing or assassinating and running at 40mph which makes everything a joke:
 
-1. Tinfist & Anti-Slavers (Impossible to beat without someone dying, not only is Tinfist too OP, all martial artist anti-slavers have near maxxed MA as well)
+## Tinfist & Anti-Slavers 
+(Impossible to beat without someone dying, not only is Tinfist too OP, all martial artist anti-slavers have near maxxed MA as well)
     
-2. Mad Cat-Lon & 120 Stormthralls (The 120 stormthralls are surprisingly weak, but only if you have Attack Slots at x1 and high combat stats. If you have a large group of low-levels or have increased Attack Slots this fight might actually be higher than Tinfist)
+## Mad Cat-Lon & 120 Stormthralls 
+(The 120 stormthralls are surprisingly weak, but only if you have Attack Slots at x1 and high combat stats. If you have a large group of low-levels or have increased Attack Slots this fight might actually be higher than Tinfist)
     
-3. King of the Southern Hive (This guy will OHKO your dudes like it's nothing, and he comes with a big-ass escort to boot. I wasn't sure whether they would be stronger than Eyegore, but in a straight fight King has a lot of fucking HP.)
+## King of the Southern Hive 
+(This guy will OHKO your dudes like it's nothing, and he comes with a big-ass escort to boot. I wasn't sure whether they would be stronger than Eyegore, but in a straight fight King has a lot of fucking HP.)
     
-4. Eyegore & Samurai Death Squad (You have the advantage of this being a raid, meaning you have harpoon turrets and crossbows to shoot at them as well as walls, but being clad to toe in heavy armor with crazy stats makes these guys a nightmare in a straight fight)
+## Eyegore & Samurai Death Squad 
+(You have the advantage of this being a raid, meaning you have harpoon turrets and crossbows to shoot at them as well as walls, but being clad to toe in heavy armor with crazy stats makes these guys a nightmare in a straight fight)
     
-5. Holy Lord Phoenix LXII, Protector of the Flame & High Paladin Buttbuddies (Holy Lord Phoenix will easily terminate any skeleton in your party, dealing triple digit damage if he so much as grazes a limb with anything short of crab armor.)
+## Holy Lord Phoenix LXII, Protector of the Flame & High Paladin Buttbuddies 
+(Holy Lord Phoenix will easily terminate any skeleton in your party, dealing triple digit damage if he so much as grazes a limb with anything short of crab armor.)
     
-6. Esata the Stone Golem & The Invincibles (All of these guys hit like a truck and can take an extreme amount of punishment. Weakest among the big three though because their swing speed is slow due to how much fragment axes weigh)
+## Esata the Stone Golem & The Invincibles 
+(All of these guys hit like a truck and can take an extreme amount of punishment. Weakest among the big three though because their swing speed is slow due to how much fragment axes weigh)
     
-7. Mighty Valamon (This guy is a rapefest. Not only is he OP, you will be swarmed with dozens upon dozens of blood reavers who are armoured head to toe and will make you bleed for your kill.)
+## Mighty Valamon 
+(This guy is a rapefest. Not only is he OP, you will be swarmed with dozens upon dozens of blood reavers who are armoured head to toe and will make you bleed for your kill.)
     
-8. CRAAAAAB TOUUUUURNAMEEEEEENT! (How do you like fighting a kaiju-sized megacrab while a bunch of heavily armored dudes tag along for the ride?)
+## CRAAAAAB TOUUUUURNAMEEEEEENT! 
+(How do you like fighting a kaiju-sized megacrab while a bunch of heavily armored dudes tag along for the ride?)
     
-9. Savant & A Bunch of Ordinary Humans (HAHAHAHA! I LAUGH BECAUSE I AM HUMAN!)
+## Savant & A Bunch of Ordinary Humans 
+(HAHAHAHA! I LAUGH BECAUSE I AM HUMAN!)
     
-10. Elder & 10 Million Year Old Skeletons (Skeleton Bandits are actually pretty damn tough.)
+## Elder & 10 Million Year Old Skeletons 
+(Skeleton Bandits are actually pretty damn tough.)
     
-11. Ashland Dome I, II, III, IV Boss Rush (Each one is harder than the next! Head of Agriculture is honestly pretty lame, but all the others are quite challenging.)
+## Ashland Dome I, II, III, IV Boss Rush 
+(Each one is harder than the next! Head of Agriculture is honestly pretty lame, but all the others are quite challenging.)
     
-12. The Vault Warden & Samurai Guards (This dude is hardcore and so are his boys. Anything with Samurai Armor is bound to take a lot of hits, so it's not unexpected that he'd be able to take a pounding.)
+## The Vault Warden & Samurai Guards 
+(This dude is hardcore and so are his boys. Anything with Samurai Armor is bound to take a lot of hits, so it's not unexpected that he'd be able to take a pounding.)
     
-13. Moll & Her Sexy Ninja Girls (These girls pack quite the punch with their masterwork bastard swords which can cut steel itself, and Moll herself is no pushover with near maxxed stats.)
+## Moll & Her Sexy Ninja Girls 
+(These girls pack quite the punch with their masterwork bastard swords which can cut steel itself, and Moll herself is no pushover with near maxxed stats.)
 ## Bugmaster
-1. Bugmaster (The Bugmaster is the entry-level challenge for the endgame fights. If you can take him on, it means you're ready to fight high-level enemies and start changing the world of Kenshi in force. And honestly, getting to the Bugmaster is the hardest part of the entire thing.) 
+ (The Bugmaster is the entry-level challenge for the endgame fights. If you can take him on, it means you're ready to fight high-level enemies and start changing the world of Kenshi in force. And honestly, getting to the Bugmaster is the hardest part of the entire thing.) 
     https://kenshi.fandom.com/wiki/Bugmaster
     ![[Pasted image 20250602141135.png]]
     
