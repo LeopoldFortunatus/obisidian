@@ -1,5 +1,9 @@
-
-# Hardest
+# Point of interest
+## Scraphouse
+https://kenshi.fandom.com/wiki/Scraphouse
+The **Scraphouse** is a weapons/merchant shop located in an ancient factory, just to the east of [Black Desert City](https://kenshi.fandom.com/wiki/Black_Desert_City "Black Desert City") in the [Deadlands](https://kenshi.fandom.com/wiki/Deadlands "Deadlands").
+be aware of the Acid Rain surrounding the place.
+# Bosses
 From hardest to easiest, assuming that you're not crossbow cheesing or assassinating and running at 40mph which makes everything a joke:
 
 ## Tinfist & Anti-Slavers 
@@ -48,7 +52,7 @@ From hardest to easiest, assuming that you're not crossbow cheesing or assassina
 2. Emperor Tengu/Longen & Guards (These aren't as challenging as the other fights, but Eyegore will be paying a visit to your outpost if you touch these guys so fair is fair I'd say.)
     
 
-Next, for mid-game:
+## Next, for mid-game:
 
 1. The Thrall Masters & Army of No-Heads (Tough Skellymen with Meitou weapons and other skellymen. Quite challenging.)
     
@@ -77,7 +81,7 @@ Next, for mid-game:
 13. Dust King (Entry-level boss fight)
     
 
-Other fun encounters:
+## Other fun encounters:
 
 Great White Gorillo in Mourn (Tough as bricks, high melee attack as well. Dangerous to fight without crossbows.)
 
