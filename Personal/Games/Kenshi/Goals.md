@@ -1,8 +1,14 @@
+https://www.almarsguides.com/computer/games/Kenshi/
 # Point of interest
+
 ## Scraphouse
 https://kenshi.fandom.com/wiki/Scraphouse
 The **Scraphouse** is a weapons/merchant shop located in an ancient factory, just to the east of [Black Desert City](https://kenshi.fandom.com/wiki/Black_Desert_City "Black Desert City") in the [Deadlands](https://kenshi.fandom.com/wiki/Deadlands "Deadlands").
 be aware of the Acid Rain surrounding the place.
+# Goals
+## End Slavery in the world of Kenshi 
+Destroy Holy Nation and United Cities
+
 # Bosses
 From hardest to easiest, assuming that you're not crossbow cheesing or assassinating and running at 40mph which makes everything a joke:
 
