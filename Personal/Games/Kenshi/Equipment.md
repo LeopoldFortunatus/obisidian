@@ -46,6 +46,11 @@ Hackers
 Качать:
 У части сабли, у других хакера.
 У двух полеармы для зверей.
+### weapons
+**Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
+
+# Medic
+**Foreign Sabre:** Best defense outdoors of all weapons
 
 # Rangers
 **Assassin's Rags (Chest):** This is a more damage oriented chestpiece. If you want to maximize your damage go with this.
