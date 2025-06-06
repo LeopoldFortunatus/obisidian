@@ -5,6 +5,9 @@ https://www.almarsguides.com/computer/games/Kenshi/
 https://kenshi.fandom.com/wiki/Scraphouse
 The **Scraphouse** is a weapons/merchant shop located in an ancient factory, just to the east of [Black Desert City](https://kenshi.fandom.com/wiki/Black_Desert_City "Black Desert City") in the [Deadlands](https://kenshi.fandom.com/wiki/Deadlands "Deadlands").
 be aware of the Acid Rain surrounding the place.
+
+## Great Library
+Located in **Black Scratch** is a town located in [The Outlands](https://kenshi.fandom.com/wiki/The_Outlands "The Outlands") region. Constructed on a hill around what appears to be an ancient structure, this relic may be either at the origin of the town or the reason for its construction.
 # Goals
 ## End Slavery in the world of Kenshi 
 Destroy Holy Nation and United Cities
