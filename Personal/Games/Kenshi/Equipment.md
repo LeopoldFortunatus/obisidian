@@ -1,8 +1,8 @@
-# Squad
-## Tanks - 6
+# Squad 
+## Tanks - 5
 Skeleton, shek, heavy weapon\hackers
 **Members:** Kat, Agnu
-## DPS - 5
+## DPS - 6
 hive\human\skeleton
 **Members:** Balcksheep
 ## Ranger - 4
@@ -46,15 +46,15 @@ sandals, samurai, boots
 #### Main
 https://kenshi.fandom.com/wiki/Heavy_Weapons
 Plank, Fragment Axe - AOE
-Falling Sun - для животных, да и вообще хорош
-Paladin's Cross - против скелетов да и вобоще кажется против всех.
+Falling Sun - main solo DPS
+Paladin's Cross - against robots
 #### Sidearm
 https://kenshi.fandom.com/wiki/Hackers
 Short cleaver
 Jitte
 
 # DPS
-### armor
+### Armor
 #### Head
 #### Body
 Samurai amor\Platejacket
@@ -65,14 +65,15 @@ Hive chainmail
 Samurai longpants
 #### Feet
 sandals
-### main weapons
+### Weapon
+#### Main 
 **Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
 
 Hackers
 1 Heavy polearm
-### Sidearm:
-**Jitte:** Great defensive weapon for indoors
+#### Sidearm:
 **Short Cleaver:** Great damage and armor penetration but very short range
+**Jitte:** Great defensive weapon for indoors
 
 # Medic
 ### Armor
@@ -147,16 +148,20 @@ https://www.almarsguides.com/computer/games/Kenshi/Misc/BestEquipment/
 https://www.almarsguides.com/computer/games/Kenshi/Misc/BestWeapons/
 
 # Best Weapon Types in Kenshi:
-**Guardless Katana:** Light and effective sidearm weapon
-**Jitte:** Great defensive weapon for indoors
-**Spiked Club:** Best bleed & damage sidearm weapon but also can get quite heavy
-**Short Cleaver:** Great damage and armor penetration but very short range
-**Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
-**Foreign Sabre:** Best defense outdoors of all weapons
-**Paladin's Cross (hacker):** The best weapon you can use against Robots
+## Heavy
 **Falling Sun (heavy):** Best pure damage weapon in the game. You can buy the recipe for this weapon in the [Scraphouse](https://kenshi.fandom.com/wiki/Scraphouse) shop in Deadlands.
 **Fragment Axe (heavy):** Deals the most AoE damage and has the most range of all weapons.
-
+## Hacker
+**Short Cleaver:** Great damage and armor penetration but very short range
+**Paladin's Cross (hacker):** The best weapon you can use against Robots
+## Sabre
+**Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
+**Foreign Sabre:** Best defense outdoors of all weapons
+## Blunt
+**Jitte:** Great defensive weapon for indoors
+**Spiked Club:** Best bleed & damage sidearm weapon but also can get quite heavy
+## Katana
+**Guardless Katana:** Light and effective sidearm weapon
 # Основные классы оружия и когда они полезны
 
 | Класс                       | Что делает                                       | Когда брать                                                    | Ключевые оговорки                                                                                                                                                                                                                                                                      |
