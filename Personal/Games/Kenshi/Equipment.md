@@ -53,7 +53,8 @@ Assasins rags, basket, sandals
 
 Crab armor
 #### Head
-Katun zukin
+* Katun zukin
+* Samurai helmet
 #### Body
 Samurai amor\Platejacket
 #### Chest
