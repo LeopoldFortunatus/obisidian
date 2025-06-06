@@ -32,6 +32,7 @@ hive\human\skeleton
 **Armor:** light
 **Weapons:** **Jitte** fo defence
 ## Animals - 2
+Bull, Garru (make it old in editor)
 
 ## Assasins - 2 
 Temporary role when needed only
