@@ -1,8 +1,11 @@
 # Squad
 ## Tanks - 6
+Skeleton, shek, heavy weapon\hackers
 ## DPS - 5
+hive\human\skeleton
 ### Balcksheep
 ## Ranger - 4
+hive\human\skeleton
 ## Medic - 1
 Knife
 ## Animals - 2
@@ -24,13 +27,25 @@ Knife
 * спальник
 * легкие ботинки или сандалии
 ## Tank
-### Броня
+### Armor
 Тяжелая броня (Samurai и т.п.), при необходимости можно где то подменить легкими элементами, типа ботинок.
 **Blackened Chainmail:** [Blackened Chainmail](https://kenshi.fandom.com/wiki/Blackened_Chainmail) is the best Medium Armor undergarment that you can get with the most protection and coverage. It is medium armor so it will come with some drawbacks but it offers you the absolute best protection.
 
 **Wooden Sandals:** Why you may ask are Wooden Sandals here and not some boot armor... Because there is no "feet" limb! Most leg armor, like the Samurai Legplates, gives you 100% protection on your legs already which means you'd not benefit from the protection on your boots anyway. Wooden Sandals offer you a lot of nice benefits
 
 Crab armor
+
+#### Head
+Katun zukin
+#### Body
+Samurai amor\Platejacket
+#### Chest
+Leather Turtleneck
+Hive chainmail
+#### Legs
+Samurai longpants
+#### Feet
+sandals, samurai, boots
 ### Оружие 1й слот
 #### Heavy для боя на улице. 
 https://kenshi.fandom.com/wiki/Heavy_Weapons
@@ -56,13 +71,15 @@ Hackers
 #### Body
 Samurai amor\Platejacket
 #### Chest
+Leather Turtleneck
+Hive chainmail
 #### Legs
-Samurai 
+Samurai longpants
 #### Feet
 sandals
 
-Samurai longpants
-Leather Turtleneck
+
+
 ### main weapons
 **Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
 
