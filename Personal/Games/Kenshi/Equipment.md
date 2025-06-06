@@ -1,17 +1,20 @@
 # Squad
 ## Tanks - 6
 Skeleton, shek, heavy weapon\hackers
+**Members:** Kat, Agnu
 ## DPS - 5
 hive\human\skeleton
-### Balcksheep
+**Members:** Balcksheep
 ## Ranger - 4
 hive\human\skeleton
+**Members:** Heft
 ## Medic - 1
-Knife
+**Members:** Knife
 ## Animals - 2
 
-## Assasins - 2 (swap)
-Blackeehp, Kat
+## Assasins - 2 
+Temporary role when needed only
+**Members:** Blackeehp and Kat
 Armor
 Assasins rags, basket, sandals
 
@@ -98,11 +101,22 @@ sandals
 **Samurai Clothpants:** These pants are pretty much the cloth version of Samurai Legplates; 100% coverage of both legs as well as 50% coverage of the stomach
 
 **Leather Turtleneck:** Out of all the undergarments in this game, the Leather Turtleneck offers you the most coverage which is why it's typically used over everything else. The only reliable way for you to get [Masterwork] Leather Turtlenecks will be through crafting.
+
+#### Head
+Straw Hat
+#### Body
+Samurai
+#### Chest
+Leather Turtleneck
+#### Legs
+
+#### Feet
+Sandals\drifter boots
 ### Weapon
 #### Main
-ranger - для учебы
-mk2 - для повсежневного испльозвания
-eagle cross - для снайперского огня издалека
+**Ranger\toothpick** - для учебы
+**Oldworld mk2** - для повсежневного испльозвания
+**Eagle cross** - для снайперского огня издалека
 
 #### Sidearm:
 **Jitte:** Great defensive weapon for indoors
@@ -112,12 +126,18 @@ eagle cross - для снайперского огня издалека
 ## Inventory
 ### Food
 ### Medkits
-### Split kits
+### Split kits (10)
+used to improve functionality of injured limbs. Once applied, they help limping characters run normally
 ### Repair kits
 ### Armor
 * Assasin rag - 2
 * Basket - 1
-
+### Weapon
+* Paladin cross - 3
+### Bolts
+Bolts [Regulars] - for oldworld bow. main (400)
+Bolts [Toothpicks] - (100)
+Bolts [Longs] - for eagle cross (200)
 
 ## Выживание
 ### Acid
@@ -133,9 +153,9 @@ https://www.almarsguides.com/computer/games/Kenshi/Misc/BestWeapons/
 **Short Cleaver:** Great damage and armor penetration but very short range
 **Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
 **Foreign Sabre:** Best defense outdoors of all weapons
-**Paladin's Cross:** The best weapon you can use against Robots
-**Falling Sun:** Best pure damage weapon in the game. You can buy the recipe for this weapon in the [Scraphouse](https://kenshi.fandom.com/wiki/Scraphouse) shop in Deadlands.
-**Fragment Axe:** Deals the most AoE damage and has the most range of all weapons.
+**Paladin's Cross (hacker):** The best weapon you can use against Robots
+**Falling Sun (heavy):** Best pure damage weapon in the game. You can buy the recipe for this weapon in the [Scraphouse](https://kenshi.fandom.com/wiki/Scraphouse) shop in Deadlands.
+**Fragment Axe (heavy):** Deals the most AoE damage and has the most range of all weapons.
 
 # Основные классы оружия и когда они полезны
 
