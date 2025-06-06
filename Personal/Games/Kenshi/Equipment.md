@@ -15,22 +15,11 @@ Blackeehp, Kat
 Armor
 Assasins rags, basket, sandals
 
-# Основные классы оружия и когда они полезны
-
-| Класс                       | Что делает                                       | Когда брать                                                    | Ключевые оговорки                                                                                                                                                                                                                                                                      |
-| --------------------------- | ------------------------------------------------ | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Катаны**                  | чистый режущий урон, самые-быстрые анимации      | дуэли, зачистка плохо-бронированных банд                       | почти не пробивают тяжёлую броню и скелетов ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Classes?utm_source=chatgpt.com "Weapons/Classes \| Kenshi Wiki - Fandom"))                                                                                                                |
-| **Сабли**                   | сбалансированный рез/дробь, +DEF, быстрые серии  | ранние бои и оборона, когда важнее не пропускать удары         | наносимый урон средний, зато «прощают» ошибку ([Kenshi](https://kenshi.fandom.com/wiki/Sabres?utm_source=chatgpt.com "Sabres - Kenshi Wiki - Fandom"))                                                                                                                                 |
-| **Хакеры (cleavers)**       | высокий пробой брони, +50 % к роботам            | против тяжёлых самураев, скелетов, турелей                     | по животным -10 % урона ([Kenshi](https://kenshi.fandom.com/wiki/Hackers?utm_source=chatgpt.com "Hackers \| Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Hackers?utm_source=chatgpt.com "Hackers \| Kenshi Wiki - Fandom"))                                         |
-| **Blunt-оружие (дробящее)** | чистый дробящий урон, часто бонус против роботов | «оглушать» врагов, не перерезая их; рабоводство                | мало кровотечения; часть моделей даёт Indoor Bonus ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Modifiers?utm_source=chatgpt.com "Weapons/Modifiers \| Kenshi Wiki - Fandom"))                                                                                                     |
-| **Heavy Weapons**           | самый высокий сплэш-урон, широкая дуга           | толпы в открытом поле; рейды на базы                           | требует силы, -8 ATK/DEF в помещениях ([Kenshi](https://kenshi.fandom.com/wiki/Heavy_Weapons?utm_source=chatgpt.com "Heavy Weapons \| Kenshi Wiki \| Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Heavy_Weapons?utm_source=chatgpt.com "Heavy Weapons \| Kenshi Wiki \| Fandom")) |
-| **Polearms**                | дальность +50 % dmg по животным                  | охота на beak things, крабов; держать противника на расстоянии | −8 ATK/DEF в зданиях, плохи в коридорах ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Classes?utm_source=chatgpt.com "Weapons/Classes \| Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Polearm?utm_source=chatgpt.com "Polearm \| Kenshi Wiki - Fandom"))         |
-| **Арбалеты / турели**       | дистанция, кровотечение, тренируют Perception    | оборона поселения, поддержка против крупных целей              | по мелким целям часто промахи ([Kenshi](https://kenshi.fandom.com/wiki/Crossbows?utm_source=chatgpt.com "Crossbows - Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Harpoon_Turret?utm_source=chatgpt.com "Harpoon Turret \| Kenshi Wiki - Fandom"))                  |
-# Конфигурация отрядов
-У каждого в рюкзаке -
+# Squad configuration
+## Everybody has in small thiefs backpack
 * аптечка
 * спальник
-* легкие ботинки или сандалии
+* food
 ## Tank
 ### Armor
 Тяжелая броня (Samurai и т.п.), при необходимости можно где то подменить легкими элементами, типа ботинок.
@@ -118,12 +107,18 @@ eagle cross - для снайперского огня издалека
 #### Sidearm:
 **Jitte:** Great defensive weapon for indoors
 
-**Best [Light Armor](https://kenshi.fandom.com/wiki/Light_Armour) Pieces:** Wooden Sandals, [Assassin's Rags](https://kenshi.fandom.com/wiki/Assassin%27s_Rags), [Dustcoat](https://kenshi.fandom.com/wiki/Dustcoat), [Samurai Clothpants](https://kenshi.fandom.com/wiki/Samurai_Clothpants), [Tagelmust](https://kenshi.fandom.com/wiki/Tagelmust), [Fog Mask](https://kenshi.fandom.com/wiki/Fog_Mask)
 
-**Best [Medium Armor](https://kenshi.fandom.com/wiki/Medium_Armour) Pieces:** [Plate Jacket](https://kenshi.fandom.com/wiki/Plate_Jacket), [Black Plate Jacket](https://kenshi.fandom.com/wiki/Black_Plate_Jacket), [White Plate Jacket](https://kenshi.fandom.com/wiki/White_Plate_Jacket), [Armoured Rag Skirt](https://kenshi.fandom.com/wiki/Armoured_Rag_Skirt), Plated Longboots, [Blackened Chainmail](https://kenshi.fandom.com/wiki/Blackened_Chainmail) (Undergarment)
+# Animal
+## Inventory
+### Food
+### Medkits
+### Split kits
+### Repair kits
+### Armor
+* Assasin rag - 2
+* Basket - 1
 
-**Best [Heavy Armor](https://kenshi.fandom.com/wiki/Heavy_Armour) Pieces:** [Samurai Legplates](https://kenshi.fandom.com/wiki/Samurai_Legplates), [Samurai Boots](https://kenshi.fandom.com/wiki/Samurai_Boots), [Crab Armour](https://kenshi.fandom.com/wiki/Crab_Armour), [Crab Helmet](https://kenshi.fandom.com/wiki/Crab_Helmet)
-# Другая снаряга
+
 ## Выживание
 ### Acid
 
@@ -141,3 +136,21 @@ https://www.almarsguides.com/computer/games/Kenshi/Misc/BestWeapons/
 **Paladin's Cross:** The best weapon you can use against Robots
 **Falling Sun:** Best pure damage weapon in the game. You can buy the recipe for this weapon in the [Scraphouse](https://kenshi.fandom.com/wiki/Scraphouse) shop in Deadlands.
 **Fragment Axe:** Deals the most AoE damage and has the most range of all weapons.
+
+# Основные классы оружия и когда они полезны
+
+| Класс                       | Что делает                                       | Когда брать                                                    | Ключевые оговорки                                                                                                                                                                                                                                                                      |
+| --------------------------- | ------------------------------------------------ | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Катаны**                  | чистый режущий урон, самые-быстрые анимации      | дуэли, зачистка плохо-бронированных банд                       | почти не пробивают тяжёлую броню и скелетов ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Classes?utm_source=chatgpt.com "Weapons/Classes \| Kenshi Wiki - Fandom"))                                                                                                                |
+| **Сабли**                   | сбалансированный рез/дробь, +DEF, быстрые серии  | ранние бои и оборона, когда важнее не пропускать удары         | наносимый урон средний, зато «прощают» ошибку ([Kenshi](https://kenshi.fandom.com/wiki/Sabres?utm_source=chatgpt.com "Sabres - Kenshi Wiki - Fandom"))                                                                                                                                 |
+| **Хакеры (cleavers)**       | высокий пробой брони, +50 % к роботам            | против тяжёлых самураев, скелетов, турелей                     | по животным -10 % урона ([Kenshi](https://kenshi.fandom.com/wiki/Hackers?utm_source=chatgpt.com "Hackers \| Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Hackers?utm_source=chatgpt.com "Hackers \| Kenshi Wiki - Fandom"))                                         |
+| **Blunt-оружие (дробящее)** | чистый дробящий урон, часто бонус против роботов | «оглушать» врагов, не перерезая их; рабоводство                | мало кровотечения; часть моделей даёт Indoor Bonus ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Modifiers?utm_source=chatgpt.com "Weapons/Modifiers \| Kenshi Wiki - Fandom"))                                                                                                     |
+| **Heavy Weapons**           | самый высокий сплэш-урон, широкая дуга           | толпы в открытом поле; рейды на базы                           | требует силы, -8 ATK/DEF в помещениях ([Kenshi](https://kenshi.fandom.com/wiki/Heavy_Weapons?utm_source=chatgpt.com "Heavy Weapons \| Kenshi Wiki \| Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Heavy_Weapons?utm_source=chatgpt.com "Heavy Weapons \| Kenshi Wiki \| Fandom")) |
+| **Polearms**                | дальность +50 % dmg по животным                  | охота на beak things, крабов; держать противника на расстоянии | −8 ATK/DEF в зданиях, плохи в коридорах ([Kenshi](https://kenshi.fandom.com/wiki/Weapons/Classes?utm_source=chatgpt.com "Weapons/Classes \| Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Polearm?utm_source=chatgpt.com "Polearm \| Kenshi Wiki - Fandom"))         |
+| **Арбалеты / турели**       | дистанция, кровотечение, тренируют Perception    | оборона поселения, поддержка против крупных целей              | по мелким целям часто промахи ([Kenshi](https://kenshi.fandom.com/wiki/Crossbows?utm_source=chatgpt.com "Crossbows - Kenshi Wiki - Fandom"), [Kenshi](https://kenshi.fandom.com/wiki/Harpoon_Turret?utm_source=chatgpt.com "Harpoon Turret \| Kenshi Wiki - Fandom"))                  |
+
+**Best [Light Armor](https://kenshi.fandom.com/wiki/Light_Armour) Pieces:** Wooden Sandals, [Assassin's Rags](https://kenshi.fandom.com/wiki/Assassin%27s_Rags), [Dustcoat](https://kenshi.fandom.com/wiki/Dustcoat), [Samurai Clothpants](https://kenshi.fandom.com/wiki/Samurai_Clothpants), [Tagelmust](https://kenshi.fandom.com/wiki/Tagelmust), [Fog Mask](https://kenshi.fandom.com/wiki/Fog_Mask)
+
+**Best [Medium Armor](https://kenshi.fandom.com/wiki/Medium_Armour) Pieces:** [Plate Jacket](https://kenshi.fandom.com/wiki/Plate_Jacket), [Black Plate Jacket](https://kenshi.fandom.com/wiki/Black_Plate_Jacket), [White Plate Jacket](https://kenshi.fandom.com/wiki/White_Plate_Jacket), [Armoured Rag Skirt](https://kenshi.fandom.com/wiki/Armoured_Rag_Skirt), Plated Longboots, [Blackened Chainmail](https://kenshi.fandom.com/wiki/Blackened_Chainmail) (Undergarment)
+
+**Best [Heavy Armor](https://kenshi.fandom.com/wiki/Heavy_Armour) Pieces:** [Samurai Legplates](https://kenshi.fandom.com/wiki/Samurai_Legplates), [Samurai Boots](https://kenshi.fandom.com/wiki/Samurai_Boots), [Crab Armour](https://kenshi.fandom.com/wiki/Crab_Armour), [Crab Helmet](https://kenshi.fandom.com/wiki/Crab_Helmet)
