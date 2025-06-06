@@ -10,6 +10,11 @@ hive\human\skeleton
 Knife
 ## Animals - 2
 
+## Assasins - 2 (swap)
+Blackeehp, Kat
+Armor
+Assasins rags, basket, sandals
+
 # Основные классы оружия и когда они полезны
 
 | Класс                       | Что делает                                       | Когда брать                                                    | Ключевые оговорки                                                                                                                                                                                                                                                                      |
@@ -34,7 +39,6 @@ Knife
 **Wooden Sandals:** Why you may ask are Wooden Sandals here and not some boot armor... Because there is no "feet" limb! Most leg armor, like the Samurai Legplates, gives you 100% protection on your legs already which means you'd not benefit from the protection on your boots anyway. Wooden Sandals offer you a lot of nice benefits
 
 Crab armor
-
 #### Head
 Katun zukin
 #### Body
@@ -46,24 +50,16 @@ Hive chainmail
 Samurai longpants
 #### Feet
 sandals, samurai, boots
-### Оружие 1й слот
-#### Heavy для боя на улице. 
+### Weapom
+#### Main
 https://kenshi.fandom.com/wiki/Heavy_Weapons
-Plank, Fragment Axe - для боя на улице
+Plank, Fragment Axe - AOE
 Falling Sun - для животных, да и вообще хорош
-#### Hackers для помещения (высокий пробой брони).
-https://kenshi.fandom.com/wiki/Hackers
 Paladin's Cross - против скелетов да и вобоще кажется против всех.
-Combat Cleaver - тоже неплохо
-Long Cleaver - хорош для раскидывания толп небронированных
-
-### Оружие 2й слот
-Short-Cleaver
-
-### Что качать
-Strength
-Heavy weapon
-Hackers
+#### Sidearm
+https://kenshi.fandom.com/wiki/Hackers
+Short cleaver
+Jitte
 
 # DPS
 ### armor
@@ -77,9 +73,6 @@ Hive chainmail
 Samurai longpants
 #### Feet
 sandals
-
-
-
 ### main weapons
 **Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
 
@@ -138,7 +131,7 @@ eagle cross - для снайперского огня издалека
 https://www.almarsguides.com/computer/games/Kenshi/Misc/BestEquipment/
 https://www.almarsguides.com/computer/games/Kenshi/Misc/BestWeapons/
 
-## Best Weapon Types in Kenshi:
+# Best Weapon Types in Kenshi:
 **Guardless Katana:** Light and effective sidearm weapon
 **Jitte:** Great defensive weapon for indoors
 **Spiked Club:** Best bleed & damage sidearm weapon but also can get quite heavy
