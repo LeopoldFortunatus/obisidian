@@ -1,3 +1,12 @@
+# Squad
+## Tanks - 6
+## DPS - 5
+### Balcksheep
+## Ranger - 4
+## Medic - 1
+Knife
+## Animals - 2
+
 # Основные классы оружия и когда они полезны
 
 | Класс                       | Что делает                                       | Когда брать                                                    | Ключевые оговорки                                                                                                                                                                                                                                                                      |
@@ -41,18 +50,46 @@ Strength
 Heavy weapon
 Hackers
 
-# Middle
-Средняя броня
-Качать:
-У части сабли, у других хакера.
-У двух полеармы для зверей.
-### weapons
+# DPS
+### armor
+#### Head
+#### Body
+Samurai amor\Platejacket
+#### Chest
+#### Legs
+Samurai 
+#### Feet
+sandals
+
+Samurai longpants
+Leather Turtleneck
+### main weapons
 **Desert Sabre:** Well rounded weapon for people who are lazy and don't like weapon swapping for different encounters
 
+Hackers
+1 Heavy polearm
+### Sidearm:
+**Jitte:** Great defensive weapon for indoors
+**Short Cleaver:** Great damage and armor penetration but very short range
+
 # Medic
+### Armor
+#### Head
+#### Body
+Samurai
+#### Chest
+#### Legs
+Samurai 
+#### Feet
+sandals
+### Weapon
+#### Main
 **Foreign Sabre:** Best defense outdoors of all weapons
+#### Sidearm
+**Jitte:** Great defensive weapon for indoors
 
 # Rangers
+### Armor:
 **Assassin's Rags (Chest):** This is a more damage oriented chestpiece. If you want to maximize your damage go with this.
 
 **Dustcoat (Chest):** This is a more tank oriented chest piece. What's nice about this one too is it offers you a lot of protection against Acid and Burning meaning you can go into Acid rain zones without much of an issue. Good to use this on your runner character that runs through dangerous zones.
@@ -62,10 +99,14 @@ Hackers
 **Samurai Clothpants:** These pants are pretty much the cloth version of Samurai Legplates; 100% coverage of both legs as well as 50% coverage of the stomach
 
 **Leather Turtleneck:** Out of all the undergarments in this game, the Leather Turtleneck offers you the most coverage which is why it's typically used over everything else. The only reliable way for you to get [Masterwork] Leather Turtlenecks will be through crafting.
-Оружие:
+### Weapon
+#### Main
 ranger - для учебы
 mk2 - для повсежневного испльозвания
 eagle cross - для снайперского огня издалека
+
+#### Sidearm:
+**Jitte:** Great defensive weapon for indoors
 
 **Best [Light Armor](https://kenshi.fandom.com/wiki/Light_Armour) Pieces:** Wooden Sandals, [Assassin's Rags](https://kenshi.fandom.com/wiki/Assassin%27s_Rags), [Dustcoat](https://kenshi.fandom.com/wiki/Dustcoat), [Samurai Clothpants](https://kenshi.fandom.com/wiki/Samurai_Clothpants), [Tagelmust](https://kenshi.fandom.com/wiki/Tagelmust), [Fog Mask](https://kenshi.fandom.com/wiki/Fog_Mask)
 
