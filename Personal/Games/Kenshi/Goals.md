@@ -1,4 +1,5 @@
 https://www.almarsguides.com/computer/games/Kenshi/
+map: https://www.kenshimap.com/
 # Point of interest
 
 ## Scraphouse
