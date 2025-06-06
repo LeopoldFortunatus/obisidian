@@ -1,21 +1,42 @@
 # Squad 
 ## Tanks - 5
-Skeleton, shek, heavy weapon\hackers
+**Races:** Skeleton, shek
+**Weapons:** 
+* **Failing Sun** for main dps
+* **Paladin cross** for robots
+* 1 **fragment axe** for AOE
+* **jitte** as sidearm for def
+**Armor:** heavy
 **Members:** Kat, Agnu
 ## DPS - 6
-hive\human\skeleton
-**Members:** Balcksheep
+**Races:** hive\human\skeleton
+**Weapons:** 
+* **Desert sabre** for main dps
+* 1 **heavy polearm** for animals
+* **Paladin cross** for robots
+* **short cleaver** as sidearm for dps
+* **jitte** as sidearm for def
+**Armor:** heavy\medium
+**Members:** Blacksheep
 ## Ranger - 4
 hive\human\skeleton
 **Members:** Heft
+**Armor:** light
+**Weapons:**
+* **Ranger\toothpick** - для учебы
+* **Oldworld mk2** - для повсежневного испльозвания
+* **Eagle cross** - для снайперского огня издалека
+* **Jitte** - sidearm for defence
 ## Medic - 1
 **Members:** Knife
+**Armor:** light
+**Weapons:** **Jitte** fo defence
 ## Animals - 2
 
 ## Assasins - 2 
 Temporary role when needed only
 **Members:** Blackeehp and Kat
-Armor
+**Armor:**
 Assasins rags, basket, sandals
 
 # Squad configuration
