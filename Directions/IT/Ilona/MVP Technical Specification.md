@@ -150,4 +150,4 @@ BOT_TOKEN=123456:ABC‑DEF...
 
 _End of specification_
 
-https://chatgpt.com/codex/tasks/task_e_684942ec5f388333b011cdaf72702d2c
+https://chatgpt.com/g/g-p-67e3c75b7f188191a41e6df60e56f6a8-it/c/684936cf-7b58-8013-ac87-90a8c9530c23
