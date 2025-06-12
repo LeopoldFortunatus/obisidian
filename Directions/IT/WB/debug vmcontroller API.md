@@ -19,6 +19,7 @@ DB connect:
 ```
 go install github.com/pressly/goose/v3/cmd/goose@latest
 goose -dir='./migrations' postgres "host=127.0.0.1 user=postgres password=postgres dbname=nativedb" up
+migrate -path migrations -database "postgresql://postgres:postgres@127.0.0.1:5432/nativedb?sslmode=disable" up
 ```
 configs examples:
 vmcontroller:
