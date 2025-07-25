@@ -1,3 +1,4 @@
+#native #localdebug
 1. Comment in internal/vmcontroller/vmcontroller.go: 
 ```
 //c.nodeCtrl.Start()  
@@ -5,14 +6,14 @@
 //c.checkCtrl.Start()  
 //c.dnsCtrl.Start()
 ```
-2. setup local ip: `sudo ip addr add 172.29.77.2/24 dev lo`
+2. setup local ip: `sudo ip addr add 172.29.140.2/24 dev lo`
 3. copy /etc/cloud/native/ssl from MR to local
 4. Create local vmcontroler and vmctl configs
 5. start vmcontroller with params: `-c vmcontroller.yml`
 6. run vmctl with params: `-c vmctl.yml list node`
 7. debug with grpcurl: 
 ```
-$grpcurl -v -d '{}'   -cacert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl-ca.crt   -cert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.crt   -key /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.key   -proto proto/vmctrl/v1/api.proto   -import-path proto/vmctrl/v1 -import-path  proto 172.29.77.2:2000 models.grpc.Service/ListNodes
+$grpcurl -v -d '{}'   -cacert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl-ca.crt   -cert /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.crt   -key /home/arykalin/Dropbox/src/go/src/git.wildberries.ru/cloud/local-configs/native/ssl/vmctl/vmctl.key   -proto proto/vmctrl/v1/api.proto   -import-path proto/vmctrl/v1 -import-path  proto 172.29.140.2:2000 models.grpc.Service/ListNodes
 ```
 
 DB connect:
@@ -118,8 +119,8 @@ log_level: info
 log_level_rbac: debug  
 vmcontroller:  
   addresses:  
-    172.29.77.2:  
-      address: 172.29.77.2  
+    172.29.140.2:  
+      address: 172.29.140.2  
       port: 2000  
     #172.29.77.4:  
     #address: 172.29.77.4    #port: 2000  exec_timeout: 30  

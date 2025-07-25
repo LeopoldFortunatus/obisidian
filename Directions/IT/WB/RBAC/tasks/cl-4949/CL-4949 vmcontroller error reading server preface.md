@@ -1,3 +1,5 @@
+TODO: add tls config to spicedb client 
+internal/vmcontroller/api/config.go:74
 # vmcontroller error reading server preface: EOF
 Error:
 ```
@@ -9,7 +11,7 @@ Error:
 ```
 authorization:
   spicedb:
-    addresses: 172.31.105.2:50052
+    addresses: 172.29.140.2:50052
     client_timeout: 10s
     tls:
       enabled: True
@@ -17,7 +19,7 @@ authorization:
       cert_file: "/opt/spicedb/ssl/spicedb_vmcontroller.crt"
       ca_cert_file: "/opt/spicedb/ssl/spicedb-ca.crt"
   token_exchange:
-    addresses: 172.31.105.2:1024
+    addresses: 172.29.140.2:1024
     client_timeout: 10s
     tls:
       enabled: True
@@ -29,7 +31,7 @@ authorization:
 
 ## spicedb config
 ```
-SPICEDB_TOKEN_EXCHANGE_ADDRESSES=172.31.105.2:1024:1024
+SPICEDB_TOKEN_EXCHANGE_ADDRESSES=172.29.140.2:1024:1024
 SPICEDB_TOKEN_EXCHANGE_CLIENT_TIMEOUT=15s
 SPICEDB_TOKEN_EXCHANGE_ENABLED_TLS=true
 TLS_ENABLED=true
@@ -53,7 +55,7 @@ SPICEDB_METRICS_IDLE_TIMEOUT=60s
 SPICEDB_METRICS_CRT_FILEPATH=
 SPICEDB_LOG_LEVEL=debug
 SPICEDB_LOG_JSON_OUTPUT=true
-SPICEDB_CONNECTION=postgres://spicedb@172.31.105.2:5445/spicedb
+SPICEDB_CONNECTION=postgres://spicedb@172.29.140.2:5445/spicedb
 SPICEDB_ADDRESS=0.0.0.0:50052
 SPICEDB_ADMIN_ADDRESS=0.0.0.0:50053
 SPICEDB_CLIENT_TIMEOUT=300ms
@@ -66,10 +68,16 @@ SPICECTL_SCHEMA_FILE=
 ```
 
 ## test commands
+### install grpcurl
+```
+wget https://github.com/fullstorydev/grpcurl/releases/download/v1.9.3/grpcurl_1.9.3_linux_amd64.deb
+dpkg -i grpcurl_1.9.3_linux_amd64.deb
+sudo apt install netcat
+```
 ### connect
 ```
 openssl s_client \
-  -connect 172.31.105.2:50052 \
+  -connect 172.29.140.2:50052 \
   -cert /opt/spicedb/ssl/spicedb_vmcontroller.crt \
   -key /opt/spicedb/ssl/spicedb_vmcontroller.key \
   -CAfile /opt/spicedb/ssl/spicedb-ca.crt \
@@ -78,25 +86,28 @@ openssl s_client \
 ```
 
 ```
-root@c1-az1:~# grpcurl -insecure -cert /opt/spicedb/ssl/spicedb_vmcontroller.crt -key /opt/spicedb/ssl/spicedb_vmcontroller.key -cacert /opt/spicedb/ssl/spicedb-ca.crt 172.31.105.2:50052 list
-authzed.api.v1.ExperimentalService
-authzed.api.v1.PermissionsService
-authzed.api.v1.SchemaService
-grpc.health.v1.Health
-grpc.reflection.v1.ServerReflection
-grpc.reflection.v1alpha.ServerReflection
+openssl s_client -connect 172.29.140.2:50052 \
+  -cert /opt/spicedb/ssl/spicedb_vmcontroller.crt \
+  -key /opt/spicedb/ssl/spicedb_vmcontroller.key \
+  -CAfile /opt/spicedb/ssl/spicedb-ca.crt \
+  -tlsextdebug \
+  -alpn h2
+```
+
+```
+grpcurl -cert /opt/spicedb/ssl/spicedb_vmcontroller.crt -key /opt/spicedb/ssl/spicedb_vmcontroller.key -cacert /opt/spicedb/ssl/spicedb-ca.crt 172.29.140.2:50052 list
 ```
 #### netcat check 
 ##### from host
 ```
-root@c1-az1:~# nc -zv 172.31.105.2 50052
-Connection to 172.31.105.2 50052 port [tcp/*] succeeded!
+root@c1-az1:~# nc -zv 172.29.140.2 50052
+Connection to 172.29.140.2 50052 port [tcp/*] succeeded!
 root@c1-az1:~# 
 ```
 ##### from docker
 ```
-root@c1-az1:~# docker exec rbac_interceptor_spicedb nc -zv 172.31.105.2 50052
-c1-az1.az1.g-cl-4949-gw-rbac-1.mr.cloud.devel [172.31.105.2] 50052 (?) open
+root@c1-az1:~# docker exec rbac_interceptor_spicedb nc -zv 172.29.140.2 50052
+c1-az1.az1.g-cl-4949-gw-rbac-1.mr.cloud.devel [172.29.140.2] 50052 (?) open
 root@c1-az1:~# 
 ```
 
