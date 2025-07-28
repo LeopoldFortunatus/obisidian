@@ -6,11 +6,15 @@ sudo ip addr add 172.29.140.2/24 dev lo
 ```
 # TokenExchange
 
+### External provdeirs
+file:///home/arykalin/go/src/gitlab-private.wildberries.ru/cloud/token-exchange/.configs
+external1:.configs/external1_jwt_rs256.key.pub
+external2:configs/external2_jwt_rs256.key.pub
 ## config
 ```
 ADDRESS=172.29.140.2:1024
 ENABLED_TLS_SERVICE_NAMES=synchronizer
-EXTERNAL_PROVIDER_NAMES_AND_PUBLIC_KEYS_FILEPATH=exampleProvider:/home/arykalin/go/src/gitlab-private.wildberries.ru/cloud/rbac-interceptor/.my/jwtRS256.key.pub
+EXTERNAL_PROVIDER_NAMES_AND_PUBLIC_KEYS_FILEPATH=external1:.configs/external1_jwt_rs256.key.pub
 INTERNAL_PROVIDER_SERVICE_TOKEN_TTL=24h
 POSTGRES_IS_ENABLED=false
 TLS_CA_CERT_FILEPATH=/home/arykalin/go/src/gitlab-private.wildberries.ru/cloud/local-configs/cl-4664-new2/token-exchange/ssl/token_exchange-cachain.crt
@@ -60,7 +64,7 @@ authorization:
 # vmctl
 -j 
 ```
-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyNTY3IiwiZXhwIjoxODkyMTk3Nzc2LCJwdWJsaWNfa2V5X2lkIjoiU0hBMjU2OndUTTB1VkZ5dHNWMHl3eUthaFFVcEhlT0tmS0dJS09LY2xXNU15d1d5ZGsiLCJpc19zZXJ2aWNlIjpmYWxzZX0.nSIPZnjtxG0Dcr1YwsgkUKaq-a6aKJz6YwGkq4iPNLQFAOQj3d5RSxEXwMJfGCMZ9RVusLeKAY0l64J36O8yZ5qPjx8QyCA68Zmm901yblBOCm9q2EZ07ZpSm16krqdSdKKk2cwOK5fgnf5r15N1WsNtM8qyHh7w-dlvlujdXIwZjnecVYGteAhV6hT-E33uG2OfL5TZKoQR9YUajNlMrazlKGeSAIoSV1e9wQMi1Dc2rg7AXUakvMyAuzS_c0cYNRjDbB3uG5hCib5eDK2Pf9qMuxs9Bmky8R-onsO7cygfg2kDtcNHnsYVhX3vN7mMlTuRRPm2zwkuLX2UhREl4PBdKrdWlTpnvodNKVam9ibSfb7C9PDDkYI4ubpP3bfRr2YjXsTmFq-AEHsZv2MkdCj7zH5gTSGpFY9KXTaOeqw9vyXh6EhsZbLgkfMi7BVQ349p-TBDWudj8r3D9vG-71jLxRCjdNKj1JsBnMPc-nSMMCb1lvd6QTvtXeSYs6UdzMwNw7E4O_B0T9Pv5Pb3hvK1umaTyVv9h8mYp8RDCduS8CRPH0EbEwjShUKNvvkyFi8ha-zmUqaQesuEOfX4Wg6z7SYOkk4Ecr6_z8bFCioN1-u0ZyftuuwAm_X2qHpr16QCpYg2cV74MCGNI0xGKaI0YnHxpWY5huLFvkhKEyQ
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODYxMDgzMTQsImlzcyI6ImV4dGVybmFsMSIsInN1YiI6InVzZXIxIn0.2lwSOkdHLuTP3pXN8dnu3VYbdz5wzwkfWZFwllcy8pcPiRUaLVy-2UO90A5jMZnDz7iQHHVh2ko10H4aMILlv5YjwN58AiAR-FLHbsSbq_U0c4eaQWpQz6mFpnik1UMktjZiRf4vUZIGC9MV0n5HNbtRjbvl-LEks5PgW_DbNsqbCt4qPHVnmfyieWU4Cni0Ssi2wklMzC5tI-mNeOpTCPzNQAHeP602QGZjFVOtzVZjQodAju9fyqwz8CXtUCaC0xOpv4pMraUyuTfKQSZWiyPmoFRVy8w9mnIU3yxjR-nqWQu4Ym1DbC9YpuqyI8WZcqG8f1BI9pCb8VtZQRyX49Uz9FBDxCZBb40ucSA2P2wroqGOiQ3C8AKItM6WBXzGMd-KQ9BUMXwFSZ47QKArE4S0JBVqKDmotaVRzRr_J1GwdGrO7yzw5xrywJAAOlrHojgk1dTbbwEcH5RczLZH6StwlvXsUt4218yfdqRJMOnrsi_K-By-x7Z_EaBJCenk4KfPJY4x7uavZUK482Tp0NHJaaN6K9BzpoWCb3y-2N1snbUsKbZrH8pCBpLQggqQyPTEGOwJ8pH8YAencA2QFYjOv74hvvhp6O_pDdeZYO4hxwrHtj3S4mvaGnkaORFYxOeELJk5Jhx7-pehSgqXSgs5U9FN057Gupyw19s0oAU
 ```
  file:///home/arykalin/go/src/gitlab-private.wildberries.ru/cloud/local-configs/cl-4664-new2/cloud/vmctl.yml
 ```
@@ -78,6 +82,15 @@ vmcontroller:
   token: i4spHRdnqHZMLZmlFGcCMnRWmTzRQgY6
 ```
 
+To setup external token in vmctl:
+cmd/vmctl/config/config.go:164
+```
+if len(Cfg.jwtToken) > 0 {  
+    ctx = metadata.NewOutgoingContext(ctx, metadata.New(map[string]string{  
+       jwtexchange.ExternalJWTKey: Cfg.jwtToken,  
+    }))  
+}
+```
 # RBAC-Server
 ```
 SPICEDB_TLS_CA_CERT_FILEPATH=/home/arykalin/go/src/gitlab-private.wildberries.ru/cloud/local-configs/cl-4664-new2/spicedb/ssl/spicedb-ca.crt
