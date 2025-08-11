@@ -1,8 +1,12 @@
 #docker
-# Get the container ID
+# Rerun job
+#wb-docker
+Можно просто пушнуть новый контейнер в харбор и перезапустить джобу
+# Manualy recreate container
+## Get the container ID
 CONTAINER_ID=$(docker ps -qf "name=token-exchange")
 
-# Create a new container using the same image and options but with new env file
+## Create a new container using the same image and options but with new env file
 
 ```
 # Get the container ID
@@ -18,3 +22,4 @@ NEW_CONTAINER_ID=$(docker container create --name token-exchange-new \
   $(docker inspect --format '{{.Config.Image}}' $CONTAINER_ID))
 ```
 
+так и не получилось что-то. Уже не помню что.

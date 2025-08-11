@@ -1,0 +1,30 @@
+#wb-cl-4949 #wb-cl-4664
+## Gateway
+### cl-4664-new2 -> master
+[MR 1568](https://gitlab-private.wildberries.ru/cloud/gateway-services/-/merge_requests/1568) 
+Обновление версии RBAC в Gateway
+
+### cl-4664-new2 -> cl-4949-gw-rbac-1 -> master
+[MR 1533](https://gitlab-private.wildberries.ru/cloud/gateway-services/-/merge_requests/1533)
+**NATIVE_BRANCH:** "cl-4949-gw-rbac"
+[NATIVE MR 1626](https://gitlab-private.wildberries.ru/cloud/cloud-native/-/merge_requests/1626/pipelines)
+CL-4949 Проверка интеграции native-gw-rbac
+## Native
+### cl-4949-gw-rbac
+[MR 1626](https://gitlab-private.wildberries.ru/cloud/cloud-native/-/merge_requests/1626/pipelines)
+```
+- project: "cloud/sre-tools/ci"  
+  ref: cl-4738
+```
+## Sre-tools
+### CL-4738
+https://gitlab-private.wildberries.ru/cloud/sre-tools/ci/-/tree/cl-4738
+MTLS для spicedb\token-exchange
+## Token exchange
+### CL-4738
+https://gitlab-private.wildberries.ru/cloud/token-exchange/-/compare/master...cl-4738
+MTLS для spicedb\token-exchange
+## wbcloud_sre
+### CL-4738
+https://gitlab-private.wildberries.ru/cloud/sre-tools/wbcloud_sre/-/compare/master...cl-4738
+MTLS для spicedb\token-exchange
