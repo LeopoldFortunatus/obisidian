@@ -12,3 +12,25 @@ token-exchange:
 
 ## Проект (неймспейс) создается в саге
 В саге пустой контекст, надо с этим разобраться
+https://gitlab-private.wildberries.ru/cloud/gateway-services/-/blob/master/internal/gateway/namespace/handlers/service.go?ref_type=heads#L957
+
+`func (s *nsService) CreateNamespace(ctx context.Context, request *models.CreateNamespaceRequest)`
+
+### В сагу не передается контекст
+```
+err = s.sagaExecutor.Add("CreateNamespace", nsSagas.CreateNSTaskState{  
+    UserActionLogID: uuid.NewString(),  
+    Request: &models.CreateNamespaceRequest{  
+       NamespaceID:    id,  
+       StateID:        stateID,  
+       Name:           request.Name,  
+       Cluster:        cluster,  
+       UserID:         request.UserID,  
+       NetworkAddress: networkAddress,  
+    },  
+})
+```
+
+#### Варианты решения
+Прокинуть рользовательский контекст чтобы проверить что работает на этом уровне.
+Реализовать saga-executor
