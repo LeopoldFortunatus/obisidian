@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"5ed40bfe636659b9","x":262,"y":-251,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Афтепати.md"},
+		{"id":"35c9e3431a34d132","x":217,"y":-760,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Мир полный радости.md"},
+		{"id":"00f9e6bda09993e9","x":262,"y":-1240,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Вера учит задавать вопросы.md"},
+		{"id":"2d18fe381f1d2a26","x":662,"y":-760,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Герои вернувшие веру притчи.md"},
+		{"id":"a62d548a05aacf23","x":760,"y":-251,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Определения веры.md"},
+		{"id":"d83486c3e129e1df","x":1400,"y":-1240,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Первый день Верологи.md"},
+		{"id":"b98d27dc1c1d2dbf","x":1200,"y":-651,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Притчи.md"},
+		{"id":"282f6885cb1ada11","x":1400,"y":-51,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Расчистка во что я верю.md"},
+		{"id":"1ccce131f8da3630","x":560,"y":280,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Символ неверия.md"},
+		{"id":"e666167b2b230746","x":800,"y":-1280,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Герои вернувшие веру.md"}
+	],
+	"edges":[]
+}
