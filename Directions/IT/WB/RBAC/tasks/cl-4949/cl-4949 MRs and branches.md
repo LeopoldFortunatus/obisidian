@@ -24,6 +24,8 @@ MTLS для spicedb\token-exchange
 ### CL-4738
 https://gitlab-private.wildberries.ru/cloud/token-exchange/-/compare/master...cl-4738
 MTLS для spicedb\token-exchange
+### CL-4949 debug log and sanitize subject
+https://gitlab-private.wildberries.ru/cloud/token-exchange/-/merge_requests/220
 ## wbcloud_sre
 ### CL-4738
 https://gitlab-private.wildberries.ru/cloud/sre-tools/wbcloud_sre/-/compare/master...cl-4738
