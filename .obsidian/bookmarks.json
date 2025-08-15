@@ -1,53 +1,15 @@
 {
   "items": [
     {
-      "type": "file",
-      "ctime": 1733088276348,
-      "path": "Directions/Церковь/Богословие/Aquinas101/2. Кто такой Бог.md",
-      "subpath": "#Lesson 4 God's Knowledge"
-    },
-    {
-      "type": "file",
-      "ctime": 1733816269931,
-      "path": "Directions/IT/WB/debug vmcontroller API on localhost.md",
-      "title": "cl-3348"
-    },
-    {
-      "type": "file",
-      "ctime": 1733816287678,
-      "path": "Personal/Дневник/Определния.md",
-      "title": "Определения"
-    },
-    {
-      "type": "file",
-      "ctime": 1747643605877,
-      "path": "Directions/IT/ГПТ/Промпты.md",
-      "title": "Промпты"
-    },
-    {
-      "type": "group",
-      "ctime": 1755245773972,
-      "items": [
-        {
-          "type": "group",
-          "ctime": 1755245779765,
-          "items": [
-            {
-              "type": "file",
-              "ctime": 1755245798096,
-              "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas",
-              "title": "Integration"
-            }
-          ],
-          "title": "ReBAC"
-        }
-      ],
-      "title": "WB"
-    },
-    {
       "type": "group",
       "ctime": 1755245820399,
       "items": [
+        {
+          "type": "file",
+          "ctime": 1733816287678,
+          "path": "Personal/Дневник/Определния.md",
+          "title": "Определения"
+        },
         {
           "type": "group",
           "ctime": 1755247930338,
@@ -77,6 +39,72 @@
         }
       ],
       "title": "ЭШЭР"
+    },
+    {
+      "type": "group",
+      "ctime": 1755249943808,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1755250025284,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1733088276348,
+              "path": "Directions/Церковь/Богословие/Aquinas101/2. Кто такой Бог.md",
+              "subpath": "#Lesson 4 God's Knowledge"
+            }
+          ],
+          "title": "Аквинат"
+        }
+      ],
+      "title": "Церковь"
+    },
+    {
+      "type": "group",
+      "ctime": 1755249966307,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1755245773972,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1733816269931,
+              "path": "Directions/IT/WB/debug vmcontroller API on localhost.md",
+              "title": "cl-3348"
+            },
+            {
+              "type": "group",
+              "ctime": 1755245779765,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1755245798096,
+                  "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas",
+                  "title": "Integration"
+                }
+              ],
+              "title": "ReBAC"
+            }
+          ],
+          "title": "WB"
+        },
+        {
+          "type": "group",
+          "ctime": 1755249987370,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1747643605877,
+              "path": "Directions/IT/ГПТ/Промпты.md",
+              "title": "Промпты"
+            }
+          ],
+          "title": "GPT"
+        }
+      ],
+      "title": "IT"
     }
   ]
 }
