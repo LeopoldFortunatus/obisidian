@@ -23,6 +23,31 @@
       "ctime": 1747643605877,
       "path": "Directions/IT/ГПТ/Промпты.md",
       "title": "Промпты"
+    },
+    {
+      "type": "group",
+      "ctime": 1755245773972,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1755245779765,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1755245798096,
+              "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas"
+            }
+          ],
+          "title": "ReBAC"
+        }
+      ],
+      "title": "WB"
+    },
+    {
+      "type": "group",
+      "ctime": 1755245820399,
+      "items": [],
+      "title": "ЭШЭР"
     }
   ]
 }
