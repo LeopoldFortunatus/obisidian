@@ -1,7 +1,11 @@
 {
 	"nodes":[
-		{"id":"2cba422089966295","x":-140,"y":-400,"width":400,"height":400,"color":"1","type":"file","file":"Directions/IT/WB/RBAC/tasks/cl-4949/cl-4949 TODO and progress.md"},
-		{"id":"787bdd6f047123f5","x":-243,"y":165,"width":400,"height":400,"color":"4","type":"file","file":"Directions/IT/WB/RBAC/tasks/cl-4949/cl-4949 MRs and branches.md"}
+		{"id":"2cba422089966295","type":"file","file":"Directions/IT/WB/RBAC/tasks/cl-4949/cl-4949 TODO and progress.md","x":-140,"y":-400,"width":400,"height":400,"color":"1"},
+		{"id":"787bdd6f047123f5","type":"file","file":"Directions/IT/WB/RBAC/tasks/cl-4949/cl-4949 MRs and branches.md","x":-243,"y":165,"width":400,"height":400,"color":"4"},
+		{"id":"f6fc0b28e2b5127c","x":-700,"y":165,"width":400,"height":400,"type":"file","file":"Directions/IT/WB/RBAC/tasks/cl-3348.md"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"2c1774cf64401fe1","fromNode":"f6fc0b28e2b5127c","fromSide":"right","toNode":"787bdd6f047123f5","toSide":"left"},
+		{"id":"82263424b9214c6a","fromNode":"2cba422089966295","fromSide":"bottom","toNode":"787bdd6f047123f5","toSide":"top"}
+	]
 }
