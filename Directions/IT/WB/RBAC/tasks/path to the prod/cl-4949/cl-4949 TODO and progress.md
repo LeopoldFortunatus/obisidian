@@ -44,4 +44,40 @@ internal/gateway/namespace/sagas/create_ns_task.go
 `[cloud:cl0#create_saga@user:cloud-teleport-aleksander.rykalin]: rpc error: code = InvalidArgument desc = invalid CheckPermissionRequest.Subject` Fixed (https://gitlab-private.wildberries.ru/cloud/token-exchange/-/blob/303a2b04a4c918b5caa238779710fa6c53ffefbf/internal/usecases/usecases.go#L86)
 
 ##### Надо передавать токен сервиса при выполнении саги.
+#wb_token_exchange 
 Мы можем добавлять токен (скорее даже методы его получения) в sagas.TaskBuilder (https://gitlab-private.wildberries.ru/cloud/gateway-services/-/blob/c2adf1a4a4f46cb85ab8a05ee816c29c5cf1353b/cmd/gwadmin/main.go#L690) и оттуда уже прокидывать в нужные саги.
+Нужно в контекст клиента вмконтролера что сейчас нужно сгенерировать сервисный токен.
+Когда запрос выполняется внутри клиента то если есть флаг GenerateServiceJWT он посылает по MTLS запрос на токен в TokenExchange
+
+Клиентский интерсептор, который должен быть включен - https://gitlab-private.wildberries.ru/cloud/token-exchange/-/tree/master/pkg/interceptors/servicejwt?ref_type=heads
+
+Получение клиентских интерсепторов - [https://gitlab-private.wildberries.ru/cloud/rbac-interceptor/blob/1f85ff5b904793dc50578f9a8a0378c8cb8ee54b/pkg/builders/builder.go#L107](https://gitlab-private.wildberries.ru/cloud/rbac-interceptor/blob/1f85ff5b904793dc50578f9a8a0378c8cb8ee54b/pkg/builders/builder.go#L107)
+
+
+UseServiceToken: https://gitlab-private.wildberries.ru/cloud/token-exchange/blob/e0dc01b2b22db67a2e577905e8a6f9e36e62f19f/pkg/interceptors/servicejwt/clientinterceptor.go#L84
+
+Два условия:
+есть MTLS к token-exchnage
+в клиентском сертификате прописано имя сервиса которое прописано в ENABLED_TLS_SERVICE_NAME в token-exchange
+
+https://gitlab-private.wildberries.ru/cloud/token-exchange/blob/75e5d5bba20abc35799e2e589fd034372fb48248/internal/configs/config.go#L80
+
+```
+
+package main
+
+import (
+    "context"
+
+    "gitlab-private.wildberries.ru/cloud/token-exchange/pkg/interceptors/servicejwt"
+)
+
+func main() {
+    client := VMControllerClient() // Есть все интерсепторы, включая servicejwt
+
+    ctx := context.Background()
+    client.GetVMs(ctx) // Без генерации jwt
+
+    client.GetVMs(servicejwt.UseServiceToken(ctx)) // C генерацией сервисного jwt
+}
+```

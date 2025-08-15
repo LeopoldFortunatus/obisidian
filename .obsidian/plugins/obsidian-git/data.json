@@ -1,5 +1,5 @@
 {
-  "commitMessage": "a55 vault backup: {{date}}",
+  "commitMessage": "delg15 vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "a55 vault backup: {{date}}"
+  "autoCommitMessage": "delg15 vault backup: {{date}}"
 }
