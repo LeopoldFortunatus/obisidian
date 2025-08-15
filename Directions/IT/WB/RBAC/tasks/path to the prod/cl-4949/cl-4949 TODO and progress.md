@@ -41,4 +41,5 @@ internal/gateway/namespace/sagas/create_ns_task.go
 - Вызвать при создании саги CreateSagaRelations (rbac-interceptor/pkg/sagas/client.go)
 - Как создать контекс при выполнении саги чтобы она выполнялась под сервисом?
 	- Как сейчас устроена сервиная аутентификация?
-- user id из телепорта не проходит валидацию в spicedb: `[cloud:cl0#create_saga@user:cloud-teleport-aleksander.rykalin]: rpc error: code = InvalidArgument desc = invalid CheckPermissionRequest.Subject`
+- user id из телепорта не проходит валидацию в spicedb: `[cloud:cl0#create_saga@user:cloud-teleport-aleksander.rykalin]: rpc error: code = InvalidArgument desc = invalid CheckPermissionRequest.Subject` Fixed
+- Надо передавать токен сервиса при выполнении саги. Мы можем добавлять токен (скорее даже методы его получения) в sagas.TaskBuilder (https://gitlab-private.wildberries.ru/cloud/gateway-services/-/blob/c2adf1a4a4f46cb85ab8a05ee816c29c5cf1353b/cmd/gwadmin/main.go#L690) и оттуда уже прокидывать в нужные саги
