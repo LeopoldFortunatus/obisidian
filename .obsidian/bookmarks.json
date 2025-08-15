@@ -46,7 +46,13 @@
     {
       "type": "group",
       "ctime": 1755245820399,
-      "items": [],
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1755245846281,
+          "path": "Directions/ЭШЭР/Вера"
+        }
+      ],
       "title": "ЭШЭР"
     }
   ]
