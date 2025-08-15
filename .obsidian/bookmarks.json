@@ -48,9 +48,26 @@
       "ctime": 1755245820399,
       "items": [
         {
-          "type": "folder",
-          "ctime": 1755245846281,
-          "path": "Directions/ЭШЭР/Вера"
+          "type": "group",
+          "ctime": 1755247930338,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1755247908688,
+              "path": "Directions/ЭШЭР/Вера/Проектирование/2025_08_11_что дальше.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1755247898600,
+              "path": "Directions/ЭШЭР/Вера/Проектирование/2025_08_10 рефлексия Школы.md"
+            },
+            {
+              "type": "folder",
+              "ctime": 1755245846281,
+              "path": "Directions/ЭШЭР/Вера"
+            }
+          ],
+          "title": "Вера"
         }
       ],
       "title": "ЭШЭР"
