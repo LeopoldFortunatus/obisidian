@@ -7,12 +7,17 @@
 		{"id":"5ed40bfe636659b9","type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Афтепати.md","x":800,"y":960,"width":400,"height":400},
 		{"id":"1ccce131f8da3630","type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Символ неверия.md","x":800,"y":280,"width":400,"height":400},
 		{"id":"282f6885cb1ada11","type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Расчистка во что я верю.md","x":240,"y":480,"width":400,"height":400},
-		{"id":"a62d548a05aacf23","type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Определения веры.md","x":240,"y":1160,"width":400,"height":400}
+		{"id":"a62d548a05aacf23","type":"file","file":"Directions/ЭШЭР/Вера/Ядерный процесс/Определения веры.md","x":240,"y":1160,"width":400,"height":400},
+		{"id":"4a70fe1f98f0f5bf","x":37,"y":-265,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Проектирование/2025_08_10 рефлексия Школы.md"},
+		{"id":"28d1014802cd86cf","x":-440,"y":-265,"width":400,"height":400,"type":"file","file":"Directions/ЭШЭР/Вера/Проектирование/2025_08_11_что дальше.md"},
+		{"id":"800a2fb964f471de","x":940,"y":-2020,"width":208,"height":60,"color":"2","type":"text","text":"Ядерный процесс"},
+		{"id":"5a113e4ce86a942a","x":1344,"y":-2022,"width":250,"height":60,"color":"6","type":"text","text":"Проект"}
 	],
 	"edges":[
 		{"id":"e46d9b55bc194b60","fromNode":"d83486c3e129e1df","fromSide":"bottom","toNode":"e666167b2b230746","toSide":"top"},
 		{"id":"36f9e2425697aab8","fromNode":"e666167b2b230746","fromSide":"bottom","toNode":"35c9e3431a34d132","toSide":"top"},
 		{"id":"175c7327c3dc0690","fromNode":"35c9e3431a34d132","fromSide":"bottom","toNode":"00f9e6bda09993e9","toSide":"top"},
-		{"id":"50c93ba30db83a4c","fromNode":"00f9e6bda09993e9","fromSide":"bottom","toNode":"1ccce131f8da3630","toSide":"top"}
+		{"id":"50c93ba30db83a4c","fromNode":"00f9e6bda09993e9","fromSide":"bottom","toNode":"1ccce131f8da3630","toSide":"top"},
+		{"id":"f010f6e8689288f6","fromNode":"800a2fb964f471de","fromSide":"bottom","toNode":"d83486c3e129e1df","toSide":"top"}
 	]
 }

@@ -88,3 +88,18 @@ diff --git a/internal/usecases/usecases.go b/internal/usecases/usecases.go
  		PublicKeyID:     fingerprint,
 
 ```
+
+
+Saga created:
+```
+root@spicedb:/app# zed relationship read saga --insecure
+saga:010f6abe-10a4-47ea-aeb7-065ff133545a service service:gateway
+saga:02eb14c6-868e-44c4-82ef-e2c228be3a5d service service:gateway
+saga:0de60078-1416-48c1-9db1-eb1f02372dc0 service service:gateway
+saga:508db4f8-fc8a-4d73-91e3-56ac2a8c7eba service service:gateway
+saga:67b20dc9-8969-4045-9c9a-044d7a83718f service service:gateway
+saga:b168e2a2-3233-4693-9f11-1c99623689b9 service service:gateway
+saga:saga1_test_record service service:gateway_test_record
+saga:saga2_test_record service service:gateway_test_record
+
+```

@@ -35,7 +35,8 @@
             {
               "type": "file",
               "ctime": 1755245798096,
-              "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas"
+              "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas",
+              "title": "Integration"
             }
           ],
           "title": "ReBAC"
@@ -65,6 +66,11 @@
               "type": "folder",
               "ctime": 1755245846281,
               "path": "Directions/ЭШЭР/Вера"
+            },
+            {
+              "type": "file",
+              "ctime": 1755248169698,
+              "path": "Directions/ЭШЭР/Вера/ЭШЭР Вера 2025.canvas"
             }
           ],
           "title": "Вера"
