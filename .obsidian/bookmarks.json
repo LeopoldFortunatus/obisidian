@@ -81,7 +81,7 @@
                 {
                   "type": "file",
                   "ctime": 1755245798096,
-                  "path": "Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949.canvas",
+                  "path": "Directions/IT/WB/RBAC/tasks/path to the prod/path to the prod.canvas",
                   "title": "Integration"
                 }
               ],
@@ -105,6 +105,11 @@
         }
       ],
       "title": "IT"
+    },
+    {
+      "type": "folder",
+      "ctime": 1755589087324,
+      "path": "Personal/Машина"
     }
   ]
 }
