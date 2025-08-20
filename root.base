@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ext
+      - file.size
+      - kanban-plugin
+    sort:
+      - property: kanban-plugin
+        direction: ASC
+      - property: file.size
+        direction: DESC
+      - property: file.ext
+        direction: ASC
