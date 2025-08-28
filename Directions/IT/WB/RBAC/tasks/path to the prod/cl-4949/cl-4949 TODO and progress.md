@@ -84,3 +84,21 @@ UseServiceToken: https://gitlab-private.wildberries.ru/cloud/token-exchange/blob
 
 https://gitlab-private.wildberries.ru/cloud/token-exchange/blob/75e5d5bba20abc35799e2e589fd034372fb48248/internal/configs/config.go#L80
 
+## настройка в гейтвее
+добавить клиентский интерсептор в нейтив клиент
+pkg/gateway/client/prepared/v2/client.go:23
+```
+NewNativeClient(ctx context.Context, opts NewClientConfig) (map[clusterName]core_client.ApiClient, error)
+```
+
+надо добавить клиентский интерцептор в generateRBACinterceptors
+cmd/gwadmin/main.go:801
+
+по идее они тут уже включены
+```
+WithClientInterceptors(  
+    rbacBuilders.NewClientInterceptorsConfig(rbacInterceptorsSoftError).  
+       WithLogger(slogLoggerClient),  
+).
+```
+cmd/gwadmin/main.go:855
