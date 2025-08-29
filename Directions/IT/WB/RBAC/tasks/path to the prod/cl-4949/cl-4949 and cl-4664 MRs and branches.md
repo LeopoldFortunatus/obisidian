@@ -1,10 +1,30 @@
 #wb-cl-4949 #wb-cl-4664
+# CL-4664 token-exchange integration
 ## Gateway
 ### cl-4664-new2 -> master
 [MR 1568](https://gitlab-private.wildberries.ru/cloud/gateway-services/-/merge_requests/1568) 
 Обновление версии RBAC в Gateway
-
-### cl-4664-new2 -> cl-4949-gw-rbac-1 -> master
+#### gitlab-ci.yaml
+```
+- project: "cloud/sre-tools/ci"  
+  ref: cl-4738
+```
+#### requirements.yml
+```
+collections:  
+  - name: "https://gitlab-private.wildberries.ru/cloud/sre-tools/wbcloud_sre.git"  
+    type: git  
+    version: cl-4738
+```
+#### go.mod
+```
+gitlab-private.wildberries.ru/cloud/box v0.1.35  
+gitlab-private.wildberries.ru/cloud/rbac-interceptor v0.0.46  
+gitlab-private.wildberries.ru/cloud/token-exchange v0.0.31
+```
+# CL-4949 saga and native integration
+## Gateway
+### cl-4949-gw-rbac-1 -> cl-4664-new2 -> master
 [MR 1533](https://gitlab-private.wildberries.ru/cloud/gateway-services/-/merge_requests/1533)
 **NATIVE_BRANCH:** "cl-4949-gw-rbac"
 [NATIVE MR 1626](https://gitlab-private.wildberries.ru/cloud/cloud-native/-/merge_requests/1626/pipelines)
