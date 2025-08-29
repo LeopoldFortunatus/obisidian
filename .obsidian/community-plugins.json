@@ -3,5 +3,7 @@
   "obsidian-tasks-plugin",
   "obsidian-git",
   "obsidian-trello",
-  "obsidian-checklist-plugin"
+  "obsidian-checklist-plugin",
+  "calendar",
+  "obsidian-icon-folder"
 ]

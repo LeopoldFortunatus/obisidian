@@ -45,6 +45,7 @@ internal/gateway/namespace/sagas/create_ns_task.go
 
 ##### При выполнении саги надо получать серисный токен от token-exchange
 #wb_token_exchange 
+- [ ] 🔼  #todo получать сервисный токен в нейтив клиенте гейтвея
 ###### Условия
 - есть MTLS к token-exchnage
 - в клиентском сертификате прописано имя сервиса которое добавлено в список [ENABLED_TLS_SERVICE_NAME](https://gitlab-private.wildberries.ru/cloud/token-exchange/blob/75e5d5bba20abc35799e2e589fd034372fb48248/internal/configs/config.go#L80) в token-exchange
