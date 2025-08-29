@@ -1,18 +1,19 @@
 {
 	"nodes":[
-		{"id":"2cba422089966295","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949 TODO and progress.md","x":-140,"y":-400,"width":400,"height":400,"color":"1"},
-		{"id":"787bdd6f047123f5","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949 MRs and branches.md","x":-243,"y":165,"width":400,"height":400,"color":"4"},
-		{"id":"f6fc0b28e2b5127c","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-3348.md","x":-700,"y":165,"width":400,"height":400},
-		{"id":"177546bddc2eeba7","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4664/cl-4664-new2 branch TODO.md","x":-700,"y":-340,"width":400,"height":220},
-		{"id":"b398e44d4a47d337","type":"text","text":"prod\n","x":-700,"y":-720,"width":250,"height":60},
-		{"id":"4f4b1c1cd0b6f706","type":"text","text":"gw master","x":-660,"y":-540,"width":250,"height":60},
-		{"id":"8a8984c3f150e276","x":-1280,"y":-320,"width":400,"height":400,"type":"file","file":"Directions/IT/WB/RBAC/builders.md"}
+		{"id":"2cba422089966295","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949 TODO and progress.md","x":-200,"y":-400,"width":460,"height":400,"color":"1"},
+		{"id":"8a8984c3f150e276","type":"file","file":"Directions/IT/WB/RBAC/builders.md","x":300,"y":-285,"width":370,"height":170,"color":"5"},
+		{"id":"4f4b1c1cd0b6f706","type":"text","text":"gw master","x":-625,"y":-460,"width":250,"height":60},
+		{"id":"b398e44d4a47d337","type":"text","text":"prod\n","x":-625,"y":-600,"width":250,"height":60},
+		{"id":"177546bddc2eeba7","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4664/cl-4664-new2 branch TODO.md","x":-700,"y":-310,"width":400,"height":220},
+		{"id":"787bdd6f047123f5","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-4949/cl-4949 MRs and branches.md","x":-170,"y":120,"width":400,"height":400,"color":"4"},
+		{"id":"f6fc0b28e2b5127c","type":"file","file":"Directions/IT/WB/RBAC/tasks/path to the prod/cl-3348.md","x":-680,"y":120,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"2c1774cf64401fe1","fromNode":"f6fc0b28e2b5127c","fromSide":"right","toNode":"787bdd6f047123f5","toSide":"left"},
 		{"id":"82263424b9214c6a","fromNode":"2cba422089966295","fromSide":"bottom","toNode":"787bdd6f047123f5","toSide":"top"},
 		{"id":"cbf6180bb52b3710","fromNode":"177546bddc2eeba7","fromSide":"right","toNode":"2cba422089966295","toSide":"left"},
 		{"id":"a5fbdb17316fe218","fromNode":"177546bddc2eeba7","fromSide":"top","toNode":"4f4b1c1cd0b6f706","toSide":"bottom"},
-		{"id":"497c4701041a54b4","fromNode":"4f4b1c1cd0b6f706","fromSide":"top","toNode":"b398e44d4a47d337","toSide":"bottom"}
+		{"id":"497c4701041a54b4","fromNode":"4f4b1c1cd0b6f706","fromSide":"top","toNode":"b398e44d4a47d337","toSide":"bottom"},
+		{"id":"260b52a5494dd3d2","fromNode":"2cba422089966295","fromSide":"right","toNode":"8a8984c3f150e276","toSide":"left"}
 	]
 }
