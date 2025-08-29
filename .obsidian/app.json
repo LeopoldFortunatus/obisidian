@@ -6,5 +6,9 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "attachments"
 }

@@ -1,5 +1,0 @@
----
-collections:
-  - name: "https://gitlab-private.wildberries.ru/cloud/sre-tools/wbcloud_sre.git"
-    type: git
-    version: cl-4738
